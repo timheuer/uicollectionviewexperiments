@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController <UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
+
 @property (weak, nonatomic) IBOutlet UITextView *logOutput;
 @property (strong, nonatomic) IBOutlet UICollectionView *collectionView;
 
